@@ -138,32 +138,49 @@ button:hover{
     transition: 0.2s ease;
 }
 
-img{
+.Coca-Cola{
     height: 600px;
     right: 22%;
     top: 17%;
     position: absolute;
-
 }
 
-.media-shop{
-    height: 10px;
+.facebook-f{
+    right: 0;
+    top: 0;
+    margin-top: 30px;
+    margin-right: 30px;
     position: absolute;
-    right: 0%;
-    top: 0%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
-
-.media-shop svg{
-    width: 10px;
+.facebook-f:hover{
+    background: #fff;
+    border-radius: 50%;
 }
-
-.media-shop path{
-    fill: #fff;
+.shopping-bag{
+    right: 0;
+    top: 0;
+    margin-top: 30px;
+    margin-right: 70px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
-
-.media-shop a{
-    margin: 20px;
+.shopping-bag:hover{
+    background: #fff;
+    border-radius: 50%;
+}
+.youtube{
+    right: 0;
+    top: 0;
+    margin-top: 32px;
+    margin-right: 115px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.youtube:hover{
+    background: #fff;
+    border-radius: 50%;
 }
